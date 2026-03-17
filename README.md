@@ -1,35 +1,28 @@
-# HotelBookingManagementSystem
-
-## Running Procedure
-
-Compile the program
-
-
-javac UseCase1HotelBookingApp.java
-
-
-Run the program
-
-
-java UseCase1HotelBookingApp
+# BookMyStay – Hotel Management System (UC3)
 
 
 ## Flow of Project
 
-* System starts and initializes
-* Hotel booking system loads basic setup
-* Future use cases will add booking features and data structure usage
+* Application starts
+* Room objects are created
+* Inventory is initialized using HashMap
+* Availability is fetched from centralized inventory
+* Room details and availability are displayed
 
 ## Objective
 
-To build a simple Hotel Booking Management System using Core Java and data structures while understanding real-world system design.
+To manage room availability using a **centralized data structure (HashMap)** instead of scattered variables.
 
 ## Topics Covered
 
-* Core Java
-* Data Structures
+* HashMap
+* Encapsulation
+* Separation of Concerns
 * Object-Oriented Programming
-* System design basics
 
+## Use Case 3
 
-
+* Introduces RoomInventory class
+* Stores availability using HashMap
+* Provides methods to get and update availability
+* Displays centralized inventory data
