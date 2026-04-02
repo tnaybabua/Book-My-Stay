@@ -1,20 +1,21 @@
-# BookMyStay – Hotel Management System (UC8)
+# BookMyStay – Hotel Management System (UC9)
+
 
 ## Flow of Project
 
-* Booking is confirmed
-* Reservation is stored in history
-* History maintains order of bookings
-* Report service retrieves data
-* Booking report is displayed
+* User enters booking details
+* Input is validated
+* Invalid inputs throw exception
+* Error message is displayed
+* Valid booking is added to queue
 
 ## Objective
 
-To maintain booking history and generate reports from stored data.
+To ensure system reliability by validating inputs and handling errors properly.
 
 ## Topics Covered
 
-* ArrayList
-* Data persistence concept
-* Separation of concerns
-* Object-Oriented Programming
+* Exception Handling
+* Custom Exception
+* Validation Logic
+* Defensive Programming
