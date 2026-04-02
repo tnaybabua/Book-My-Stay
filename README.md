@@ -1,27 +1,28 @@
-# BookMyStay – Hotel Management System (UC3)
+# BookMyStay – Hotel Management System (UC4)
+
 
 ## Flow of Project
 
 * Application starts
 * Room objects are created
-* Inventory is initialized using HashMap
-* Availability is fetched from centralized inventory
+* Inventory is accessed (read-only)
+* Available rooms are filtered
 * Room details and availability are displayed
 
 ## Objective
 
-To manage room availability using a **centralized data structure (HashMap)** instead of scattered variables.
+To allow users to view available rooms without modifying system data.
 
 ## Topics Covered
 
-* HashMap
-* Encapsulation
-* Separation of Concerns
+* Read-only access
+* HashMap usage
+* Separation of concerns
 * Object-Oriented Programming
 
-## Use Case 3
+## Use Case 4
 
-* Introduces RoomInventory class
-* Stores availability using HashMap
-* Provides methods to get and update availability
-* Displays centralized inventory data
+* Introduces RoomSearchService
+* Retrieves availability from inventory
+* Displays only available rooms
+* Ensures no modification to inventory
