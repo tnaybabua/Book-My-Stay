@@ -1,21 +1,22 @@
-# BookMyStay – Hotel Management System (UC12)
+# BookMyStay – Hotel Management System (UC11)
 
 ## Flow of Project
 
-* System starts
-* Inventory is loaded from file
-* If file not found, default inventory is used
-* Current inventory is displayed
-* Inventory is saved to file
+* Multiple booking requests are created
+* Requests are added to shared queue
+* Multiple threads process requests
+* Queue access is synchronized
+* Inventory updates are synchronized
+* Booking results are displayed
 
 ## Objective
 
-To persist system data and restore it after restart.
+To ensure correct booking behavior under concurrent execution using synchronization.
 
 ## Topics Covered
 
-* File Handling
-* Persistence
-* Serialization (basic)
-* Exception Handling
-* Object-Oriented Programming
+* Multithreading
+* Runnable interface
+* Synchronization
+* Thread safety
+* Race condition handling
