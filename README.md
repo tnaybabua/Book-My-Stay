@@ -1,22 +1,22 @@
-# BookMyStay – Hotel Management System (UC10)
+# BookMyStay – Hotel Management System (UC11)
 
 ## Flow of Project
 
-* Booking is registered
-* Cancellation request is made
-* Reservation is validated
-* Room ID is pushed to stack
-* Inventory is restored
-* Rollback history is displayed
+* Multiple booking requests are created
+* Requests are added to shared queue
+* Multiple threads process requests
+* Queue access is synchronized
+* Inventory updates are synchronized
+* Booking results are displayed
 
 ## Objective
 
-To safely cancel bookings and restore system state using rollback logic.
+To ensure correct booking behavior under concurrent execution using synchronization.
 
 ## Topics Covered
 
-* Stack (LIFO)
-* HashMap
-* State rollback
-* Data consistency
-* Object-Oriented Programming
+* Multithreading
+* Runnable interface
+* Synchronization
+* Thread safety
+* Race condition handling
