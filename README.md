@@ -1,39 +1,27 @@
-# BookMyStay – Hotel Management System (UC2)
-
-## Running Procedure
-
-Compile the program
-
-```id="c1run"
-javac mystay.java
-```
-
-Run the program
-
-```id="c2run"
-java mystay
-```
+# BookMyStay – Hotel Management System (UC3)
 
 ## Flow of Project
 
 * Application starts
-* Room objects (Single, Double, Suite) are created
-* Availability is stored using variables
+* Room objects are created
+* Inventory is initialized using HashMap
+* Availability is fetched from centralized inventory
 * Room details and availability are displayed
 
 ## Objective
 
-To model basic hotel room types using **abstraction and inheritance** in Java.
+To manage room availability using a **centralized data structure (HashMap)** instead of scattered variables.
 
 ## Topics Covered
 
-* Abstract Class
-* Inheritance
-* Polymorphism
+* HashMap
 * Encapsulation
+* Separation of Concerns
+* Object-Oriented Programming
 
-## Use Case 2
+## Use Case 3
 
-* Defines Room as abstract class
-* Creates SingleRoom, DoubleRoom, SuiteRoom
-* Displays room details and static availability
+* Introduces RoomInventory class
+* Stores availability using HashMap
+* Provides methods to get and update availability
+* Displays centralized inventory data
