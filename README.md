@@ -1,21 +1,22 @@
-# BookMyStay – Hotel Management System (UC9)
-
+# BookMyStay – Hotel Management System (UC10)
 
 ## Flow of Project
 
-* User enters booking details
-* Input is validated
-* Invalid inputs throw exception
-* Error message is displayed
-* Valid booking is added to queue
+* Booking is registered
+* Cancellation request is made
+* Reservation is validated
+* Room ID is pushed to stack
+* Inventory is restored
+* Rollback history is displayed
 
 ## Objective
 
-To ensure system reliability by validating inputs and handling errors properly.
+To safely cancel bookings and restore system state using rollback logic.
 
 ## Topics Covered
 
-* Exception Handling
-* Custom Exception
-* Validation Logic
-* Defensive Programming
+* Stack (LIFO)
+* HashMap
+* State rollback
+* Data consistency
+* Object-Oriented Programming
