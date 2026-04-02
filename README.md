@@ -1,21 +1,22 @@
-# BookMyStay – Hotel Management System (UC6)
+# BookMyStay – Hotel Management System (UC7)
+
 
 ## Flow of Project
 
-* Booking requests are taken from queue
-* System checks room availability
-* Unique room ID is generated
-* Room is allocated to guest
-* Inventory is updated immediately
+* Reservation ID is created
+* Add-on services are selected
+* Services are stored in a list
+* Services are mapped to reservation
+* Total add-on cost is calculated
 
 ## Objective
 
-To confirm bookings and allocate rooms safely while preventing double-booking.
+To support optional services for bookings without affecting core booking logic.
 
 ## Topics Covered
 
-* Queue (FIFO)
 * HashMap
-* HashSet
-* Data consistency
+* ArrayList
+* One-to-Many relationship
+* Composition
 * Object-Oriented Programming
