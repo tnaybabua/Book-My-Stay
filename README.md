@@ -1,40 +1,39 @@
-# BookMyStay – Hotel Management System
+# BookMyStay – Hotel Management System (UC2)
 
 ## Running Procedure
 
 Compile the program
 
-```
-javac UseCase1HotelBookingApp.java
+```id="c1run"
+javac mystay.java
 ```
 
 Run the program
 
-```
-java UseCase1HotelBookingApp
+```id="c2run"
+java mystay
 ```
 
 ## Flow of Project
 
-* System starts and initializes
-* Hotel management system loads
-* Future use cases will handle booking, rooms, and customers
+* Application starts
+* Room objects (Single, Double, Suite) are created
+* Availability is stored using variables
+* Room details and availability are displayed
 
 ## Objective
 
-To build a Hotel Management System using Core Java and Data Structures with real-world concepts.
+To model basic hotel room types using **abstraction and inheritance** in Java.
 
 ## Topics Covered
 
-* Core Java
-* Data Structures
-* Object-Oriented Programming
-* System Design
+* Abstract Class
+* Inheritance
+* Polymorphism
+* Encapsulation
 
-## Use Cases
+## Use Case 2
 
-* UC1 – System Initialization
-* UC2 – Room Management
-* UC3 – Booking Handling
-* UC4 – Data Structure Integration
-* UC5 – System Optimization
+* Defines Room as abstract class
+* Creates SingleRoom, DoubleRoom, SuiteRoom
+* Displays room details and static availability
