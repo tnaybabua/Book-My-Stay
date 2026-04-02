@@ -1,28 +1,34 @@
-# BookMyStay – Hotel Management System (UC4)
+# BookMyStay – Hotel Management System (UC5)
 
+## Running Procedure
+
+Compile the program
+
+```
+javac mystay.java
+```
+
+Run the program
+
+```
+java mystay
+```
 
 ## Flow of Project
 
 * Application starts
-* Room objects are created
-* Inventory is accessed (read-only)
-* Available rooms are filtered
-* Room details and availability are displayed
+* Booking requests are created
+* Requests are added to queue
+* Requests are processed in FIFO order
+* Booking details are displayed
 
 ## Objective
 
-To allow users to view available rooms without modifying system data.
+To handle booking requests fairly using a queue (FIFO principle).
 
 ## Topics Covered
 
-* Read-only access
-* HashMap usage
-* Separation of concerns
+* Queue (FIFO)
+* LinkedList
+* Encapsulation
 * Object-Oriented Programming
-
-## Use Case 4
-
-* Introduces RoomSearchService
-* Retrieves availability from inventory
-* Displays only available rooms
-* Ensures no modification to inventory
